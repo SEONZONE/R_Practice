@@ -92,7 +92,7 @@
       
       var1 <- c(var1, 70) #var1에 70요소 추가 
       var1
-      
+      var2
    
       
 
