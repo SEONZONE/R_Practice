@@ -45,10 +45,10 @@ is.character(v2)
     is.numeric(Integer)
     
   #문자열
-  var3 <- " '문자열입니당'"
+  var3 <- " '문자열입니다'"
   var3  
   
-  var4 <- '"문자열입니당"'
+  var4 <- '"문자열입니다"'
   var4
   
   #논리형
@@ -98,6 +98,11 @@ is.character(v2)
   is.na(data_multi)
   sum(is.na(data_multi))
   
+  
+  data <- c(1,2,NA,NA,5)
+  data
+  
+  sum(1,NA,2,na.rm = T)
   
   
   
