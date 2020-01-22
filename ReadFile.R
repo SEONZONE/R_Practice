@@ -47,7 +47,7 @@
     SEX = c("F","M","F","F","M")
   )
   write.csv(data_ex, file = "C:/Users/1/Documents/R_Practice/R_FileRead/data1_ex.csv",row.names = F,quote =F) #row.names  : 번호 제거  
-                                                                                                              #quote : " 제거 
+  #quote : " 제거 
   data_ex <- data.frame(
     ID = c(1,2,3,4,5),
     SEX = c("F","M","F","F","M")
