@@ -1,5 +1,6 @@
  # ====================== dply ======================
-  library(dplyr)
+
+   library(dplyr)
   install.packages("scatterD3")    
    library(scatterD3)
   distinct(mtcars,cyl,gear)
